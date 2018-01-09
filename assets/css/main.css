@@ -1,0 +1,135 @@
+@import url(font-awesome.min.css);
+
+/*
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/* Reset */
+
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		color: rgba(255, 255, 255, 0.55);
+		font-family: Calibri, Arial, Helvetica, sans-serif;
+		font-size: 12pt;
+		font-weight: normal;
+		line-height: 1.75;
+	}
+	html, body, section {
+		height: 100%;
+		background-color: grey;	
+	}
+	body {
+		margin: 0;
+	}
+	footer {
+		position: fixed;
+		width: 100%;
+		background-color:#0080FF;
+		bottom: 0;
+		height: 25px;
+	}
+	footer-text {
+		margin: 10px;
+		color: white;
+	}
+	section {
+		position: relative;
+		float: left;
+		top: 0;
+		background-color: grey;	
+		width: 100%;
+		height: calc(100% - 25px);
+	}
+	sidebar {
+		height: 100%; /* 100% Full-height */
+		width: 50px; /* 150px width */
+		float: left;
+		z-index: 1; /* Stay on top */
+		top: 0; /* Stay at the top */
+		left: 0;
+		background-color: rgba(0, 0, 0, 0.582);
+	}
+	sidebar inner {
+		float: left;
+		margin-top: 15px;
+		height: 100%;
+	}
+	sidebar nav {
+		padding: 0 10px;
+		height: 100%;
+	}
+	sidebar nav > ul {
+		list-style: none;
+		padding: 0;
+	}
+	sidebar nav > ul > li {
+		transition: opacity 0.15s ease, transform 0.75s ease;
+		opacity: 1;
+		padding: 0;
+		position: relative;
+	}
+	sidebar nav a {
+			transition: color 0.2s ease, border-bottom-color 0.2s ease;
+			border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+			color: inherit;
+			text-decoration: none;
+	}
+	sidebar nav a {
+		height: inherit;
+		line-height: inherit;
+		padding: 0;
+		font-variant: small-caps
+	}
+
+	sidebar nav a:after {
+		background-image: none;
+		background-color: #b74e91;
+	}
+	project {
+		float: left;
+		height: 100vh;
+		width: 100px;
+		background-color: rgba(0, 0, 0, 0.678);
+	}
+	wrapper {
+		float: left;
+		height: 100vh;
+		width: calc(100% - 150px);
+	}
+	wrapper header x-tabs{
+		height: 30px;
+		background-color:  rgba(0, 0, 0, 0.582);	
+	}
+	project header, wrapper header {
+		top: 0;
+		float: left;
+		font-size: 12pt;
+		background-color: rgba(0, 0, 0, 0.582);	
+		width: 100%;
+		height: 30px;
+	}
+	header-text {
+		margin-left: 10px;
+	}
+	x-doctabs {
+		padding: 0, 0;
+		height: 30px;
+		background-color: rgba(0, 0, 0, 0.582);	
+	}
+	x-doctab {
+		min-height: 30px;
+	}
+	x-doctab x-icon {
+		height: 20px;
+		width: 20px;
+	}
+	x-icon {
+		width: 30px;
+		height: 30px;
+	}
+	
+		
+
+
+

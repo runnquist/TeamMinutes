@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="../node_modules/xel/stylesheets/material.theme.css">
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <script src="../node_modules/xel/xel.min.js"></script>
+    <title>TeamMinutes</title>
+  </head>
+  <body>
+
+      <section>
+        <sidebar>
+          <inner>
+            <nav>
+                <x-icon name="content-copy" iconset="../node_modules/xel/images/icons.svg"></x-icon></br>
+                <x-icon name="search" iconset="../node_modules/xel/images/icons.svg"></x-icon></br>
+                <x-icon name="timeline" iconset="../node_modules/xel/images/icons.svg"></x-icon></br>
+                <x-icon style="bottom: 10px; position: absolute;" name="settings" iconset="../node_modules/xel/images/icons.svg" bottom></x-icon>
+            </nav>
+          </inner>
+        </sidebar>
+        <project>
+          <header><header-text>Project</header-text></header>
+        </project>
+        <wrapper>
+          <header>
+            <x-doctabs>
+              <x-doctab selected>
+                <x-icon name="mail" iconset="../node_modules/xel/images/icons.svg"></x-icon>
+                <x-label>Item one</x-label>
+              </x-doctab>
+              <x-doctab> 
+                <x-icon name="send" iconset="../node_modules/xel/images/icons.svg"></x-icon>
+                <x-label>Item two</x-label>
+              </x-doctab>
+              <x-doctab>
+                <x-icon name="unarchive" iconset="../node_modules/xel/images/icons.svg"></x-icon>
+                <x-label>Item three</x-label>
+              </x-doctab>
+            </x-doctabs>
+          </header>
+        </wrapper>
+      </section>
+      <footer><footer-text>Footer</footer-text></footer>
+      <script src="index.js"></script>
+  </body>
+</html>

@@ -13,6 +13,7 @@
     "electron": "1.7.10"
   },
   "dependencies": {
+    "ajax-request": "^1.2.3",
     "xel": "0.0.98"
   }
 }

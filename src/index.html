@@ -13,19 +13,19 @@
 
       <section>
         <sidebar>
-          <inner>
-            <nav>
-                <x-icon name="content-copy" iconset="../node_modules/xel/images/icons.svg"></x-icon></br>
-                <x-icon name="search" iconset="../node_modules/xel/images/icons.svg"></x-icon></br>
-                <x-icon name="timeline" iconset="../node_modules/xel/images/icons.svg"></x-icon></br>
-                <x-icon style="bottom: 10px; position: absolute;" name="settings" iconset="../node_modules/xel/images/icons.svg" bottom></x-icon>
-            </nav>
-          </inner>
+            <inner>
+                <nav>
+                    <a href="javascript:toggleProject()"><x-icon name="content-copy" iconset="../node_modules/xel/images/icons.svg"></x-icon></a></br>
+                    <x-icon name="search" iconset="../node_modules/xel/images/icons.svg"></x-icon></br>
+                    <x-icon name="timeline" iconset="../node_modules/xel/images/icons.svg"></x-icon></br>
+                    <x-icon style="bottom: 10px; position: absolute;" name="settings" iconset="../node_modules/xel/images/icons.svg" bottom></x-icon>                
+                </nav>
+            </inner>
         </sidebar>
-        <project>
+        <project id="_project">
           <header><header-text>Project</header-text></header>
         </project>
-        <wrapper>
+        <wrapper id"_wrapper">
           <header>
             <x-doctabs>
               <x-doctab selected>
@@ -45,6 +45,8 @@
         </wrapper>
       </section>
       <footer><footer-text>Footer</footer-text></footer>
+      <script>window.$ = window.jQuery = require('../assets/js/jquery-3.2.1.min');</script>
       <script src="index.js"></script>
+      <script src="sidebar.js"></script>
   </body>
 </html>
